@@ -1,7 +1,14 @@
-# Exemplo de Sistema em Python fazendo CRUD no MongoDB
-Esse sistema de exemplo é composto por um conjunto de coleções(collections) que representam pedidos de vendas, contendo coleções como: campeonato, jogadores, jogos, tabela do campeonato e times.
+# Trabalho c3
 
-O sistema exige que as coleções existam, então basta executar o script Python a seguir para criação das coleções e preenchimento de dados de exemplos:
+Repositorio para o trabalho da c3 de banco de Dados Ministrada Pelo Professor Howard Cruz 
+
+## Tema - Campeonato de Futebol :soccer:
+
+Este projeto é um sistema de gerenciamento de partidas de futebol desenvolvido em Python e SQL, criado como parte de um trabalho acadêmico da matéria de Banco de dados do professor Howard Cruz. Ele oferece uma solução  para controlar jogadores, times e resultados de partidas. Com este sistema, você pode cadastrar,cadastrar, visualizar e analisar informações sobre times, jogadores e partidas 
+
+Com os dados fornecidos rodada a rodada todos os dados são convertidos em uma tabela com a classificação do campeonato e outros dados, gerando assim uma classificação na junção de todas as tabelas e é revelado quem foi o campeão e a classificação geral.
+
+## Como Rodar a aplicação :hammer:
 
 ~$ python createCollectionsAndData.py
 Atenção: tendo em vista que esse projeto é continuidade do example_crud_oracle, é importante que as tabelas do Oracle existam e estejam preenchidas, pois o script createCollectionsAndData.py irá realizar uma consulta em cada uma das tabelas e preencher as collections com os novos documents.
@@ -36,7 +43,7 @@ principal.py: Script responsável por ser a interface entre o usuário e os mód
 
 requirements.txt: pip install -r requirements.txt
 
-## Organização
+## Organização 📁 
 - [diagrams](diagrams): Nesse diretório está o [diagrama relacional](diagrams/DIAGRAMA_RELACIONAL_PEDIDOS.pdf) (lógico) do sistema.
     * O sistema possui cinco entidades: PRODUTOS, CLIENTES, FORNECEDORES, PEDIDOS e ITENS_PEDIDO
 - [src](src): Nesse diretório estão os scripts do sistema
@@ -149,6 +156,12 @@ requirements.txt: pip install -r requirements.txt
 ### Bibliotecas Utilizadas
 - [requirements.txt](src/requirements.txt): `pip install -r requirements.txt`
 
-## Contato
-- [LinkedIn](https://linkedin.com/in/howardroatti)
-- [E-Mail](mailto:howardcruzroatti@g
+## Integrantes
+* João Victor Leoni dos santos
+* Lucas Fraga de Andrade
+* Daniel José Holz 
+* Gabriel dos Santos
+* Jhean Virginio Perim Pazetto
+* Guilherme Barbosa Medici Loureiro 
+* Maria Eduarda André Carlete 
+
